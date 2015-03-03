@@ -1,0 +1,9 @@
+org.mule.modules.buenosaires
+org.mule.modules.buenosaires.adapter
+org.mule.modules.buenosaires.adapters
+org.mule.modules.buenosaires.agents
+org.mule.modules.buenosaires.config
+org.mule.modules.buenosaires.devkit
+org.mule.modules.buenosaires.processors
+org.mule.modules.buenosaires.strategy
+

@@ -1,0 +1,26 @@
+var DATA = [
+      { id:0, label:"my-processor", link:"mule/buenos-aires-config.html#my-processor", type:"method" },
+      { id:1, label:"org.mule.modules.buenosaires", link:"java/org/mule/modules/buenosaires/package-summary.html", type:"package" },
+      { id:2, label:"org.mule.modules.buenosaires.BuenosAiresConnector", link:"java/org/mule/modules/buenosaires/BuenosAiresConnector.html", type:"class" },
+      { id:3, label:"org.mule.modules.buenosaires.adapter", link:"java/org/mule/modules/buenosaires/adapter/package-summary.html", type:"package" },
+      { id:4, label:"org.mule.modules.buenosaires.adapter.PoolManager", link:"java/org/mule/modules/buenosaires/adapter/PoolManager.html", type:"class" },
+      { id:5, label:"org.mule.modules.buenosaires.adapters", link:"java/org/mule/modules/buenosaires/adapters/package-summary.html", type:"package" },
+      { id:6, label:"org.mule.modules.buenosaires.adapters.BuenosAiresConnectorCapabilitiesAdapter", link:"java/org/mule/modules/buenosaires/adapters/BuenosAiresConnectorCapabilitiesAdapter.html", type:"class" },
+      { id:7, label:"org.mule.modules.buenosaires.adapters.BuenosAiresConnectorConnectorConnectionStrategyBasicAdapter", link:"java/org/mule/modules/buenosaires/adapters/BuenosAiresConnectorConnectorConnectionStrategyBasicAdapter.html", type:"class" },
+      { id:8, label:"org.mule.modules.buenosaires.adapters.BuenosAiresConnectorLifecycleInjectionAdapter", link:"java/org/mule/modules/buenosaires/adapters/BuenosAiresConnectorLifecycleInjectionAdapter.html", type:"class" },
+      { id:9, label:"org.mule.modules.buenosaires.adapters.BuenosAiresConnectorMetadataAdapater", link:"java/org/mule/modules/buenosaires/adapters/BuenosAiresConnectorMetadataAdapater.html", type:"class" },
+      { id:10, label:"org.mule.modules.buenosaires.adapters.BuenosAiresConnectorProcessAdapter", link:"java/org/mule/modules/buenosaires/adapters/BuenosAiresConnectorProcessAdapter.html", type:"class" },
+      { id:11, label:"org.mule.modules.buenosaires.agents", link:"java/org/mule/modules/buenosaires/agents/package-summary.html", type:"package" },
+      { id:12, label:"org.mule.modules.buenosaires.agents.DefaultSplashScreenAgent", link:"java/org/mule/modules/buenosaires/agents/DefaultSplashScreenAgent.html", type:"class" },
+      { id:13, label:"org.mule.modules.buenosaires.config", link:"java/org/mule/modules/buenosaires/config/package-summary.html", type:"package" },
+      { id:14, label:"org.mule.modules.buenosaires.config.BuenosAiresConnectorConnectorConnectionStrategyConfigDefinitionParser", link:"java/org/mule/modules/buenosaires/config/BuenosAiresConnectorConnectorConnectionStrategyConfigDefinitionParser.html", type:"class" },
+      { id:15, label:"org.mule.modules.buenosaires.config.BuenosAiresNamespaceHandler", link:"java/org/mule/modules/buenosaires/config/BuenosAiresNamespaceHandler.html", type:"class" },
+      { id:16, label:"org.mule.modules.buenosaires.config.MyProcessorDefinitionParser", link:"java/org/mule/modules/buenosaires/config/MyProcessorDefinitionParser.html", type:"class" },
+      { id:17, label:"org.mule.modules.buenosaires.devkit", link:"java/org/mule/modules/buenosaires/devkit/package-summary.html", type:"package" },
+      { id:18, label:"org.mule.modules.buenosaires.devkit.SplashScreenAgent", link:"java/org/mule/modules/buenosaires/devkit/SplashScreenAgent.html", type:"class" },
+      { id:19, label:"org.mule.modules.buenosaires.processors", link:"java/org/mule/modules/buenosaires/processors/package-summary.html", type:"package" },
+      { id:20, label:"org.mule.modules.buenosaires.processors.MyProcessorMessageProcessor", link:"java/org/mule/modules/buenosaires/processors/MyProcessorMessageProcessor.html", type:"class" },
+      { id:21, label:"org.mule.modules.buenosaires.strategy", link:"java/org/mule/modules/buenosaires/strategy/package-summary.html", type:"package" },
+      { id:22, label:"org.mule.modules.buenosaires.strategy.ConnectorConnectionStrategy", link:"java/org/mule/modules/buenosaires/strategy/ConnectorConnectionStrategy.html", type:"class" }
+
+    ];
