@@ -8,11 +8,16 @@ body {
 
 .left-side{
 	margin-right: 57%;
+  margin-top: 10%;
 	text-align: center;
 	float: right;
 	text-align: right;
 	vertical-align: center;
 	margin-top: 4%;
+}
+
+h1{
+  font-size: 36px;
 }
 
 .right-side{
@@ -29,34 +34,27 @@ ul {
 }
 
 a {
-	line-height: 1.5em;
 	font-size: 16px;
 	text-decoration: none;
-	color: white;
-	padding-left: 10px;
+	color: gray;
 }
 
 a:hover{
 	color:#1097E1;
 }
 
-
-@font-face {
-  font-family: "Source Code Pro";
-  src: url('fonts/SourceCodePro-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/SourceCodePro-Regular.woff') format('woff'), url('../fonts/SourceCodePro-Regular.ttf') format('truetype'), url('fonts/SourceCodePro-Regular.svg#@{svgFontName') format('svg');
-  font-style: normal;
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'Ubuntu';
-  src: url('fonts/Ubuntu-Light-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/Ubuntu-Light-webfont.woff') format('woff'), url('../fonts/Ubuntu-Light-webfont.ttf') format('truetype'), url('fonts/Ubuntu-Light-webfont.svg#@{svgFontName') format('svg');
-  font-style: normal;
-  font-weight: 300;
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
 }
 
 .title{
 	color: rgb(16, 140, 221) !important;
 	margin-left: 40px;
+	font-weight: normal;
 }
 
 .version {
@@ -66,4 +64,85 @@ a:hover{
 
 .middle {
     margin-top: 14%;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 3em;
+    width: 100%;
+    background: #fff;
+    margin-left: 40px;
+}
+td, th {
+    padding: 0.75em 1.5em;
+    text-align: left;
+}
+  td.err {
+    background-color: #e992b9;
+    color: #fff;
+    font-size: 0.75em;
+    text-align: center;
+    line-height: 1;
+  }
+th {
+    background-color: #0799DC;
+    font-weight: bold;
+    color: #fff;
+    white-space: nowrap;
+}
+tbody th {
+  background-color: #0799DC;
+}
+tbody tr:nth-child(2n-1) {
+    background-color: #f5f5f5;
+    transition: all .125s ease-in-out;
+}
+
+
+/* For appearance */
+.sticky-wrap {
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+  margin: 3em 0;
+  width: 100%;
+}
+.sticky-wrap .sticky-thead,
+.sticky-wrap .sticky-col,
+.sticky-wrap .sticky-intersect {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .125s ease-in-out;
+  z-index: 50;
+  width: auto; /* Prevent table from stretching to full size */
+}
+  .sticky-wrap .sticky-thead {
+    box-shadow: 0 0.25em 0.1em -0.1em rgba(0,0,0,.125);
+    z-index: 100;
+    width: 100%; /* Force stretch */
+  }
+  .sticky-wrap .sticky-intersect {
+    opacity: 1;
+    z-index: 150;
+
+  }
+    .sticky-wrap .sticky-intersect th {
+      background-color: #666;
+      color: #eee;
+    }
+.sticky-wrap td,
+.sticky-wrap th {
+  box-sizing: border-box;
+}
+
+/* Not needed for sticky header/column functionality */
+td.user-name {
+  text-transform: capitalize;
+}
+.sticky-wrap.overflow-y {
+  overflow-y: auto;
+  max-height: 50vh;
 }
