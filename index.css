@@ -8,7 +8,7 @@ body {
 
 .left-side{
 	margin-right: 57%;
-  margin-top: 10%;
+  margin-top: 15%;
 	text-align: center;
 	float: right;
 	text-align: right;
@@ -21,7 +21,7 @@ h1{
 }
 
 .right-side{
-	margin-left: 45%;
+	margin-left: 43%;
 	position: absolute;
 }
 
@@ -52,9 +52,10 @@ div.table-title {
 }
 
 .title{
-	color: rgb(16, 140, 221) !important;
+	color: rgb(237, 235, 235) !important;
 	margin-left: 40px;
 	font-weight: normal;
+  font-size: 40px;
 }
 
 .version {
@@ -70,13 +71,13 @@ div.table-title {
 table {
     border-collapse: collapse;
     margin-bottom: 3em;
-    width: 100%;
+    width: 500px;
     background: #fff;
     margin-left: 40px;
 }
 td, th {
     padding: 0.75em 1.5em;
-    text-align: left;
+    text-align: center;
 }
   td.err {
     background-color: #e992b9;
@@ -86,13 +87,13 @@ td, th {
     line-height: 1;
   }
 th {
-    background-color: #0799DC;
+    background-color: #108CDD;
     font-weight: bold;
     color: #fff;
     white-space: nowrap;
 }
 tbody th {
-  background-color: #0799DC;
+  background-color: #108CDD;
 }
 tbody tr:nth-child(2n-1) {
     background-color: #f5f5f5;
