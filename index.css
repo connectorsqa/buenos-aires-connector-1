@@ -1,19 +1,19 @@
 body {
-	background-color: #414042;
- 	font-family: Ubuntu, sans-serif;
-  	font-size: 14px;
-  	line-height: 1.42857143;
-  	margin: 0;
+  background-color: #414042;
+  font-family: Ubuntu, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
 }
 
 .left-side{
-	margin-right: 65%;
+  margin-right: 65%;
   margin-top: 15%;
-	text-align: center;
-	float: right;
-	text-align: right;
-	vertical-align: center;
-	margin-top: 4%;
+  text-align: center;
+  float: right;
+  text-align: right;
+  vertical-align: center;
+  margin-top: 4%;
 }
 
 h1{
@@ -21,26 +21,26 @@ h1{
 }
 
 .right-side{
-	margin-left: 37%;
-	position: absolute;
+  margin-left: 37%;
+  position: absolute;
 }
 
 .content h1 {
-	color: #e0e0e0;
+  color: #e0e0e0;
 }
 
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 a {
-	font-size: 16px;
-	text-decoration: none;
-	color: gray;
+  font-size: 16px;
+  text-decoration: none;
+  color: gray;
 }
 
 a:hover{
-	color:#1097E1;
+  color:#1097E1;
 }
 
 div.table-title {
@@ -51,28 +51,37 @@ div.table-title {
 }
 
 .title{
-	color: rgb(237, 235, 235) !important;
-	font-weight: normal;
+  color: rgb(237, 235, 235) !important;
+  font-weight: normal;
   width: 100%;
   font-size: 40px;
 }
 
 .version {
-	text-align: right;
-	color: white
+  text-align: right;
+  color: white
 }
 
 .middle {
     margin-top: 14%;
 }
 
-.demo-table {
+li.demo-table{
+    font-size: 12px;
+    text-align: left;
+}
+
+.demo-table a {
     font-size: 12px;
 }
 
-tbody.demo-table:nth-child(2n-1) {
-    background-color: gray;
-    transition: all .125s ease-in-out;
+li a{
+  text-align: left;
+  font-size: 12px;
+}
+
+li {
+  padding-left: 30px;
 }
 
 table {
@@ -81,7 +90,8 @@ table {
     background: #fff;
 }
 td, th {
-    padding: 0.75em 1.5em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
     text-align: center;
 }
   td.err {
@@ -107,49 +117,3 @@ tbody tr:nth-child(2n-1) {
 }
 
 
-/* For appearance */
-.sticky-wrap {
-  overflow-x: auto;
-  overflow-y: hidden;
-  position: relative;
-  margin: 3em 0;
-  width: 99%;
-}
-.sticky-wrap .sticky-thead,
-.sticky-wrap .sticky-col,
-.sticky-wrap .sticky-intersect {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: all .125s ease-in-out;
-  z-index: 50;
-  width: auto; /* Prevent table from stretching to full size */
-}
-  .sticky-wrap .sticky-thead {
-    box-shadow: 0 0.25em 0.1em -0.1em rgba(0,0,0,.125);
-    z-index: 100;
-    width: 100%; /* Force stretch */
-  }
-  .sticky-wrap .sticky-intersect {
-    opacity: 1;
-    z-index: 150;
-
-  }
-    .sticky-wrap .sticky-intersect th {
-      background-color: #666;
-      color: #eee;
-    }
-.sticky-wrap td,
-.sticky-wrap th {
-  box-sizing: border-box;
-}
-
-/* Not needed for sticky header/column functionality */
-td.user-name {
-  text-transform: capitalize;
-}
-.sticky-wrap.overflow-y {
-  overflow-y: auto;
-  max-height: 50vh;
-}
