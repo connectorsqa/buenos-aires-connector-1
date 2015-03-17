@@ -153,6 +153,7 @@ tbody tr:nth-child(2n-1) {
     position: absolute;
     left: 0;
     right: 0;
+    z-index:10;
 
     /* Styles */
     background: #fff;

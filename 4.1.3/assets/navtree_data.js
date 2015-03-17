@@ -1,0 +1,25 @@
+var NAVTREE_DATA =
+[ [ "org.mule.modules.sendgrid", "org/mule/modules/sendgrid/package-summary.html", [ [ "Classes", null, [ [ "SendGridConnector", "org/mule/modules/sendgrid/SendGridConnector.html", null, "" ] ]
+, "" ] ]
+, "" ], [ "org.mule.modules.sendgrid.adapter", "org/mule/modules/sendgrid/adapter/package-summary.html", [ [ "Interfaces", null, [ [ "PoolManager", "org/mule/modules/sendgrid/adapter/PoolManager.html", null, "" ] ]
+, "" ] ]
+, "" ], [ "org.mule.modules.sendgrid.adapters", "org/mule/modules/sendgrid/adapters/package-summary.html", [ [ "Classes", null, [ [ "SendGridConnectorCapabilitiesAdapter", "org/mule/modules/sendgrid/adapters/SendGridConnectorCapabilitiesAdapter.html", null, "" ], [ "SendGridConnectorConnectionManagementAdapter", "org/mule/modules/sendgrid/adapters/SendGridConnectorConnectionManagementAdapter.html", null, "" ], [ "SendGridConnectorLifecycleInjectionAdapter", "org/mule/modules/sendgrid/adapters/SendGridConnectorLifecycleInjectionAdapter.html", null, "" ], [ "SendGridConnectorMetadataAdapater", "org/mule/modules/sendgrid/adapters/SendGridConnectorMetadataAdapater.html", null, "" ], [ "SendGridConnectorProcessAdapter", "org/mule/modules/sendgrid/adapters/SendGridConnectorProcessAdapter.html", null, "" ] ]
+, "" ] ]
+, "" ], [ "org.mule.modules.sendgrid.agents", "org/mule/modules/sendgrid/agents/package-summary.html", [ [ "Classes", null, [ [ "DefaultSplashScreenAgent", "org/mule/modules/sendgrid/agents/DefaultSplashScreenAgent.html", null, "" ] ]
+, "" ] ]
+, "" ], [ "org.mule.modules.sendgrid.config", "org/mule/modules/sendgrid/config/package-summary.html", [ [ "Classes", null, [ [ "SendGridConnectorConnectorConnectionStrategyConfigDefinitionParser", "org/mule/modules/sendgrid/config/SendGridConnectorConnectorConnectionStrategyConfigDefinitionParser.html", null, "" ], [ "SendGridNamespaceHandler", "org/mule/modules/sendgrid/config/SendGridNamespaceHandler.html", null, "" ], [ "SendMailDefinitionParser", "org/mule/modules/sendgrid/config/SendMailDefinitionParser.html", null, "" ] ]
+, "" ] ]
+, "" ], [ "org.mule.modules.sendgrid.connectivity", "org/mule/modules/sendgrid/connectivity/package-summary.html", [ [ "Classes", null, [ [ "ConnectionManagementConfigSendGridConnectorConnectionKey", "org/mule/modules/sendgrid/connectivity/ConnectionManagementConfigSendGridConnectorConnectionKey.html", null, "" ], [ "ConnectorConnectionStrategySendGridConnectorAdapter", "org/mule/modules/sendgrid/connectivity/ConnectorConnectionStrategySendGridConnectorAdapter.html", null, "" ], [ "SendGridConnectorConfigConnectionManagementConnectionManager", "org/mule/modules/sendgrid/connectivity/SendGridConnectorConfigConnectionManagementConnectionManager.html", null, "" ] ]
+, "" ] ]
+, "" ], [ "org.mule.modules.sendgrid.devkit", "org/mule/modules/sendgrid/devkit/package-summary.html", [ [ "Interfaces", null, [ [ "SplashScreenAgent", "org/mule/modules/sendgrid/devkit/SplashScreenAgent.html", null, "" ] ]
+, "" ] ]
+, "" ], [ "org.mule.modules.sendgrid.pooling", "org/mule/modules/sendgrid/pooling/package-summary.html", [ [ "Classes", null, [ [ "DevkitGenericKeyedObjectPool", "org/mule/modules/sendgrid/pooling/DevkitGenericKeyedObjectPool.html", null, "" ] ]
+, "" ] ]
+, "" ], [ "org.mule.modules.sendgrid.processors", "org/mule/modules/sendgrid/processors/package-summary.html", [ [ "Classes", null, [ [ "SendMailMessageProcessor", "org/mule/modules/sendgrid/processors/SendMailMessageProcessor.html", null, "" ] ]
+, "" ] ]
+, "" ], [ "org.mule.modules.sendgrid.strategy", "org/mule/modules/sendgrid/strategy/package-summary.html", [ [ "Classes", null, [ [ "ConnectorConnectionStrategy", "org/mule/modules/sendgrid/strategy/ConnectorConnectionStrategy.html", null, "" ] ]
+, "" ] ]
+, "" ] ]
+
+;
+
